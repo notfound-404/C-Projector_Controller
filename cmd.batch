@@ -1,0 +1,23 @@
+#Manuel pour utilisation commande EPSON
+#VIA PORT COMn
+#Exemple pour COM2
+
+#Paramétrer le port COM2
+    mode COM2:9600,n,8,1
+
+#Allumer/Eteindre; valeur ON/OFF
+    echo PWR ON>COM2:
+    echo PWR OFF>COM2:
+
+#Freezer l'écran; valeur ON/OFF
+    echo FREEZE ON >COM2:
+    echo FREEZE OFF >COM2:
+
+#Augmenter/Diminuer volume; valeur INC/DEC
+    echo VOL INC>COM2:
+    echo VOL DEC>COM2:
+
+#Activer/Désactiver l'affichage; valeur ON/OFF
+#Ceci laisse le vidéoproj allumé !
+    echo MUTE ON>COM2:
+    echo MUTE OFF>COM2:
